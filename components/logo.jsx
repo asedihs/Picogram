@@ -4,7 +4,7 @@ class Logo extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="picogram-Logo">picogram</h1>
+        <h1 className="picogram-Logo">picogram {this.props.name}</h1>
       </div>
     );
   }
